@@ -11,6 +11,7 @@
 		35FDDB121B5F96BF00C0FC9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FDDB101B5F96BF00C0FC9D /* Main.storyboard */; };
 		35FDDB141B5F96BF00C0FC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FDDB131B5F96BF00C0FC9D /* Assets.xcassets */; };
 		35FDDB171B5F96BF00C0FC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FDDB151B5F96BF00C0FC9D /* LaunchScreen.storyboard */; };
+		35FDDB1F1B5FCD9600C0FC9D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDDB1E1B5FCD9600C0FC9D /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,9 @@
 		35FDDB131B5F96BF00C0FC9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35FDDB161B5F96BF00C0FC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35FDDB181B5F96BF00C0FC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FDDB1E1B5FCD9600C0FC9D /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		35FDDB201B5FDA0200C0FC9D /* Swift Development with Cocoa - Chapter2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swift Development with Cocoa - Chapter2.png"; sourceTree = "<group>"; };
+		35FDDB211B5FE84E00C0FC9D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 		35FDDB001B5F96BF00C0FC9D = {
 			isa = PBXGroup;
 			children = (
+				35FDDB211B5FE84E00C0FC9D /* README.md */,
+				35FDDB201B5FDA0200C0FC9D /* Swift Development with Cocoa - Chapter2.png */,
 				35FDDB0B1B5F96BF00C0FC9D /* hello.swift.NSCoding */,
 				35FDDB0A1B5F96BF00C0FC9D /* Products */,
 			);
@@ -53,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				35FDDB0C1B5F96BF00C0FC9D /* AppDelegate.swift */,
+				35FDDB1E1B5FCD9600C0FC9D /* Note.swift */,
 				35FDDB101B5F96BF00C0FC9D /* Main.storyboard */,
 				35FDDB131B5F96BF00C0FC9D /* Assets.xcassets */,
 				35FDDB151B5F96BF00C0FC9D /* LaunchScreen.storyboard */,
@@ -132,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35FDDB0D1B5F96BF00C0FC9D /* AppDelegate.swift in Sources */,
+				35FDDB1F1B5FCD9600C0FC9D /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +287,7 @@
 				35FDDB1D1B5F96BF00C0FC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
